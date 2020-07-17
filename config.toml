@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "/"
 languageCode = "en-us"
-title = "Portfolio for Ted Laderas, PhD"
+title = "Portfolio for Sahar Fatima"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,8 +19,8 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Ted Laderas"
-  description = "Portfolio/CV for Ted Laderas"
+  name = "Sahar Fatima"
+  description = "Portfolio/CV for Sahar Fatima"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -39,8 +39,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Ted Laderas, PhD"
-    subtitle = "Data Scientist, Educator, and Collaborator"
+    title = "Sahar Fatima"
+    subtitle = "..."
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -75,51 +75,38 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Ted Laderas, PhD"
-    subtitle = "Portfolio of Data Science and Visualization Projects"
+    title = "Sahar Fatima"
+    subtitle = "..."
     buttonText = "Curriculum Vitae"
     url = "cv/"
-
 
   # Tiles Section
   [params.tiles]
     enable = true
     # Display your showcases here.
     [[params.tiles.showcase]]
-      title = "Project: Understanding Coffee Scores"
-      subtitle = "Does processing method influence overall score?"
+      title = "Project: Facial Mimicry in pre-schoolers"
+      subtitle = "Are RFRs merely motor-matching or affective responses?"
+      image = "projects/coffee.png"
+      url = "projects/coffee"
+      
+    [[params.tiles.showcase]]
+      title = "R: Linear Mixed Modelling"
+      subtitle = "Learning about LMM in R"
       image = "projects/coffee.png"
       url = "projects/coffee"
     
     [[params.tiles.showcase]]
-      title = "Project: Choropleth of Ready for R Class"
+      title = "R: Writing a function"
       subtitle = "Where are the Ready for R Students From?"
       image = "projects/choropleth.png"
       url = "projects/choropleth"
-
-    [[params.tiles.showcase]]
-      title = "Project: Animal Crossing Tidy Tuesday"
-      subtitle = "What personality/animal combos are unique?"
-      image = "projects/ac.png"
-      url = "projects/animal_crossing"
-
-    [[params.tiles.showcase]]
-      title = "Course: Ready for R"
-      subtitle = "A gentle introduction to the R and the tidyverse"
-      image = "projects/ready4r.png"
-      url = "https://ready4r.netlify.app"
-
-    [[params.tiles.showcase]]
-      title = "Course: Stats for Neuroscientists"
-      subtitle = "A Course on Statistical Image Processing for Neuroscientists new to computing"
-      image = "projects/stats4neuro.png"
-      url = "https://stats4neuro.netlify.app"
       
-    [[params.tiles.showcase]]
-      title = "Course: R-Bootcamp"
-      subtitle = "An interactive introduction to the tidyverse"
-      image = "projects/r-bootcamp.jpg"
-      url = "https://r-bootcamp.netlify.app"
+     [[params.tiles.showcase]]
+      title = "R: ggplot and ggeasy"
+      subtitle = "Where are the Ready for R Students From?"
+      image = "projects/choropleth.png"
+      url = "projects/choropleth"
 
     [[params.tiles.showcase]]
       title = "Workshop: A gRadual Introduction to Shiny"
