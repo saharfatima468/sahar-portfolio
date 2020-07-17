@@ -97,22 +97,21 @@ disqusShortname = ""
       url = "projects/coffee"
     
     [[params.tiles.showcase]]
-      title = "R: Writing a function"
-      subtitle = "Where are the Ready for R Students From?"
+      title = "How To: Writing a function"
+      subtitle = "How to write a function with code you have written"
       image = "projects/choropleth.png"
       url = "projects/choropleth"
       
      [[params.tiles.showcase]]
-      title = "R: ggplot and ggeasy"
-      subtitle = "Where are the Ready for R Students From?"
+      title = "R: Plotting"
+      subtitle = "Tips for plotting in R using ggplot and ggeasy"
       image = "projects/choropleth.png"
       url = "projects/choropleth"
 
     [[params.tiles.showcase]]
-      title = "Workshop: A gRadual Introduction to Shiny"
-      subtitle = "A short workshop introducing basic shiny programming concepts"
+      title = "How To: Combine Git with Rstudio"
       #image = "projects/r-bootcamp.jpg"
-      url = "https://laderast.github.io/gradual_shiny/"
+      url = "https://happygitwithr.com/rstudio-git-github.html"
 
     # You can make more showcases by copy and pasting the code above
 
